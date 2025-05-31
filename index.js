@@ -153,7 +153,7 @@ return msg?.message || ""
 },
 msgRetryCounterCache,
 msgRetryCounterMap,
-defaultQueryTimeoutMs: undefined,
+defaultQueryTimeoutMs: 30_000,
 version,
 }
 
